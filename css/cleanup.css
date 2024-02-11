@@ -1,1 +1,18 @@
 /* write your override styles here */
+#wall .tag-1{
+    display:none;
+}
+#tag-2{
+   background-color:red;
+}
+#tag-3 .slick {
+    background:yellow;
+
+}
+#wall .parent #tag-5.slick{
+    display:inline;
+
+}
+div#wall div.parent div:last-child div#tag-6{
+    background: url(../images/tag-6.png) repeat;
+}
